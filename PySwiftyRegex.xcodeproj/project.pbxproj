@@ -14,6 +14,7 @@
 		0CEBDD3E1B39C5EC003A40BB /* PySwiftyRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEBDCF81B39B312003A40BB /* PySwiftyRegex.swift */; };
 		795691DB1C74A9B9002B1CA4 /* ReTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C383C3A1B50CFF5008837A8 /* ReTests.swift */; };
 		795691DE1C74AACB002B1CA4 /* TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795691DC1C74AACB002B1CA4 /* TestHelpers.swift */; };
+		9779E09A2BEB0B5E00FC1CEC /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 9779E0992BEB0B5E00FC1CEC /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		0CEBDD241B39B8C3003A40BB /* PySwiftyRegex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PySwiftyRegex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CEBDD2D1B39B8C4003A40BB /* PySwiftyRegexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PySwiftyRegexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		795691DC1C74AACB002B1CA4 /* TestHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestHelpers.swift; sourceTree = "<group>"; };
+		9779E0992BEB0B5E00FC1CEC /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		0CEBDCE01B39B2FB003A40BB /* PySwiftyRegex */ = {
 			isa = PBXGroup;
 			children = (
+				9779E0992BEB0B5E00FC1CEC /* PrivacyInfo.xcprivacy */,
 				0CEBDCE11B39B2FB003A40BB /* PySwiftyRegex.h */,
 				0CEBDCF81B39B312003A40BB /* PySwiftyRegex.swift */,
 				0CEBDCE31B39B2FB003A40BB /* Info.plist */,
@@ -192,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9779E09A2BEB0B5E00FC1CEC /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
