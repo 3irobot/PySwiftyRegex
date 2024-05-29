@@ -7,8 +7,7 @@ Pod::Spec.new do |s|
   s.social_media_url   = "https://twitter.com/AdamoCheng"
   s.author             = { "Ce Zheng" => "cezheng.cs@gmail.com" }
   s.source       = { :git => "https://github.com/cezheng/PySwiftyRegex.git", :tag => s.version }
-  s.resources    = 'PySwiftyRegex/*.{png,bundle,xcprivacy}'
-  
+  s.resource_bundles = {'PySwiftyRegex' => ['PySwiftyRegex/Privacyinfo.xcprivacy']}
   s.ios.deployment_target = "8.0"
   s.osx.deployment_target = "10.9"
   s.watchos.deployment_target = "2.0"
